@@ -1,3 +1,12 @@
+%%% File encoding is ISO-8859-1 (also known as Latin-1)
+%%% You can use special characters just like ä,ü and ñ
+%%% LaTeX template by Manuel Kuehner, 2015
+
+%%% If you use this template then please give credit like this:
+%%% ----------------------------
+% LaTeX code inspired by the LaTeX Thesis Template by Manuel Kuehner 
+% www.bedienhaptik.de/latex-template/
+%%% ----------------------------
 
 % ##############################################
 % Start: Template Preamble
@@ -49,7 +58,7 @@
 
 %
 % #######################
-% End: Template Preamble
+% Ende: Template Preamble
 % #######################
 
 % ##############################################
@@ -106,8 +115,6 @@
 
 % Appendix B
 \input{02_Chapters/AppendixExampleChapterB.tex}
-
-%\input{05_Bibliography/biblio.bbl}
 
 \end{document}
 % ------------------------------------------------------------------
