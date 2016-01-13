@@ -1,10 +1,4 @@
-%%% File encoding is ISO-8859-1 (also known as Latin-1)
-%%% You can use special characters just like ä,ü and ñ
 
-% Custom command fpr the margin notes: \myMarginnote{Your Text}
-% Comment on the \lineskiplimit=-\maxdimen:
-% See http://tex.stackexchange.com/questions/49072/
-% Without it the line spacing of the normal text was changed (ugly).
 \newcommand{\myMarginnote}[1]{%
 	\marginnote{% needs marginnote package
 		\ifthispageodd{\RaggedRight}{\RaggedLeft}% needs ragged2e package
